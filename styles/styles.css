@@ -231,6 +231,13 @@ footer .section-description {
         width: 90%;
         
     }
+    .our-donate-plan .section-description {
+        padding: 0px 30px;
+    }
+    .donation-categories {
+        padding: 0px 20px;
+        flex-direction: column;
+    }
 }
 /* responsive layout for medium screen */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -257,6 +264,12 @@ footer .section-description {
     }
     .donation-item {
         padding: 2em 1em;
+    }
+    .our-donate-plan .section-description {
+        padding: 0px 30px;
+    }
+    .donation-categories {
+        padding: 0px 30px;
     }
 }
 .hide {
