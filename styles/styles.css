@@ -231,12 +231,32 @@ footer .section-description {
         width: 90%;
         
     }
+    .our-donate-plan .section-title {
+        padding: 0px 20px;
+    }
     .our-donate-plan .section-description {
         padding: 0px 30px;
     }
     .donation-categories {
         padding: 0px 20px;
         flex-direction: column;
+    }
+    .lives-depend {
+        padding: 0px 20px;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .lives-depend img {
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+    }
+    .lives-depend .section-title {
+        margin-top: 0px;
+    }
+    .donation-image-div {
+        width: 100%;
+        text-align: center;
     }
 }
 /* responsive layout for medium screen */
@@ -270,6 +290,23 @@ footer .section-description {
     }
     .donation-categories {
         padding: 0px 30px;
+    }
+    .lives-depend {
+        padding: 0px 30px;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .lives-depend .section-title {
+        margin-top: 0px;
+    }
+    .donation-image-div {
+        width: 100%;
+        text-align: center;
+    }
+    .lives-depend img {
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
     }
 }
 .hide {
