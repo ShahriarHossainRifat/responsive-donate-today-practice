@@ -269,6 +269,18 @@ footer .section-description {
     .need-us .section-title {
         margin-top: 0px;
     }
+    .get-my-updates {
+        padding: 0px 30px;
+    }
+    .get-my-updates .section-description {
+        padding: 0px;
+    }
+    .get-my-updates .form {
+        margin: 30px 0px;
+    }
+    .get-my-updates input[type=email] {
+        margin-bottom: 30px;
+    }
 }
 /* responsive layout for medium screen */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -329,6 +341,15 @@ footer .section-description {
     }
     .need-us .section-title {
         margin-top: 0px;
+    }
+    .get-my-updates {
+        padding: 0px 30px;
+    }
+    .get-my-updates .section-description {
+        padding: 0px;
+    }
+    .get-my-updates .form {
+        margin: 30px 100px;
     }
 }
 .hide {
