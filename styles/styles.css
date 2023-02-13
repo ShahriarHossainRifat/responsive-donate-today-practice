@@ -219,6 +219,18 @@ footer .section-description {
         margin-bottom: 50px;
         padding: 0px 20px;
     }
+    .donations {
+        flex-direction: column;
+        padding: 0px 30px;
+        gap: 20px;
+    }
+    .donate-today .section-description {
+        padding: 0px 20px;
+    }
+    hr {
+        width: 90%;
+        
+    }
 }
 /* responsive layout for medium screen */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -231,6 +243,20 @@ footer .section-description {
     }
     .header .btn-primary {
         margin-bottom: 50px;
+    }
+    .donate-today .section-description {
+        padding: 0px 40px;
+    }
+    .donations {
+        padding: 0px 30px;
+        gap: 20px;
+    }
+    hr {
+        width: 90%;
+        
+    }
+    .donation-item {
+        padding: 2em 1em;
     }
 }
 .hide {
